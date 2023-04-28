@@ -12,7 +12,7 @@ cred = credentials.Certificate("admin-24882-firebase-adminsdk-mvtlj-d91a9c6b50.j
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://admin-24882-default-rtdb.firebaseio.com'
 })
-gmaps = googlemaps.Client(key='AIzaSyDWRGYJXFwSjJemTtz-3MNZrxCe_Ie9-Lg')
+gmaps = googlemaps.Client(key='AIzaSyCMBI0WFadrI9Pk7v8aK4qWbbtNQ4aMZmw')
 
 ref = db.reference('volunteers')
 
